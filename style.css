@@ -1,14 +1,14 @@
 *{
     padding: 0;
     margin: 0;
-    background-color: black;
     color: #F1F1F1;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 .header{
     padding: 15px;
     border-bottom: 3px solid #5A09E8;
+    background-color: black;
 }
 
 .container{
@@ -34,4 +34,49 @@ ul{
 
 li{
     color: #3074E3;
+}
+
+.banner{
+    background-image: url("./assets/img/bg-jelly-fish-para_outras_pags.png");
+    padding: 100px 0;
+}
+
+.banner .container{
+    height: 350px;
+    align-items: center;
+    justify-content: center;
+}
+
+.banner p{
+    width: 280px;
+    color: #FFFFFF;
+    font-size: 30px;
+}
+
+.social{
+    margin: 50px 0;
+}
+
+.social .caixas, .caixa {
+    display: flex;
+}
+
+.caixa {
+    flex-direction: column;
+    align-items: center;
+    margin: 0 18px;
+}
+
+.caixa h4{
+    margin: 15px 0;
+    color: #16f16a;
+}
+
+.caixa p{
+    text-align: center;
+    color: black;
+}
+
+.caixa img{
+    width: 170px;
 }
