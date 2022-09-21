@@ -2,7 +2,19 @@
     padding: 0;
     margin: 0;
     color: #F1F1F1;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family:monospace;
+}
+
+body::-webkit-scrollbar{
+    width: 8px;
+}
+
+body::-webkit-scrollbar-track{
+    background-color: black;
+}
+
+body::-webkit-scrollbar-thumb{
+    background-color: #5A09E8;
 }
 
 .header{
@@ -69,7 +81,7 @@ li{
 
 .caixa h4{
     margin: 15px 0;
-    color: #16f16a;
+    color: #3074E3;
 }
 
 .caixa p{
@@ -79,4 +91,28 @@ li{
 
 .caixa img{
     width: 170px;
+}
+
+.footer {
+    padding: 45px 0;
+    background-color: black;
+}
+
+.footer .container{
+    justify-content: center;
+}
+
+.footer p{
+    color: white;
+}
+
+li a{
+  text-decoration: none;
+  color: #3074E3;  
+  cursor: pointer;
+  transition: color .2s linear;
+}
+
+li a:hover{
+    color: #274169;
 }
